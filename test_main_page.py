@@ -28,4 +28,3 @@ def test_should_be_login_and_register_form(browser):
     page.open()
     page.should_be_login_form()
     page.should_be_register_form()
-
